@@ -1,0 +1,9 @@
+spack:
+  concretizer:
+    reuse: true
+  packages:
+    all:
+      # Use a specific version of GCC
+      require: "%gcc@11.2.0"
+  include:
+  - $spack/../spack-configs/e4s-configs/frontier/rocm-5.3.0

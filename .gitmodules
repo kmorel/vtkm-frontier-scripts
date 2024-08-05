@@ -1,0 +1,6 @@
+[submodule "spack"]
+	path = spack
+	url = https://github.com/spack/spack
+[submodule "facility-external-spack-configs"]
+	path = spack-configs/e4s-configs
+	url = https://github.com/E4S-Project/facility-external-spack-configs.git

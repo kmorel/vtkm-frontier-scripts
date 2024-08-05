@@ -1,0 +1,8 @@
+#!/bin/bash
+
+scriptdir=$(dirname $(realpath $0))
+
+. $scriptdir/setup-spack.sh
+
+spack concretize -f
+spack install --add vtk-m @2.1.0+rocm~openmp+examples+kokkos amdgpu_target=gfx90a
