@@ -17,9 +17,15 @@ To set up and load the Spack environment, simply source the
 . ./setup-spack.sh
 ```
 
-To compile VTK-m, run the `make-vtkm.sh` script. You do not have to source
-`setup-spack.sh` before running `make-vtkm.sh`, but you will have to source
-it before using it. You can load VTK-m into your environment with
+To compile VTK-m, run the `make-vtkm.sh` script.
+
+``` bash
+make-vtkm.sh
+```
+
+You do not have to source `setup-spack.sh` before running `make-vtkm.sh`,
+but you will have to source it before using it. You can load VTK-m into
+your environment with
 
 ``` bash
 spack load vtk-m
